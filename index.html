@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | [Challenge Name Here]</title>
+	</head>
+	<body class="body light">
+		<div class="social">
+			<div class="social__header">
+				<div class="social__top">
+					<h1 class="light">Social Media Dashboard</h1>
+					<span>Total followers: 20,004</span>
+				</div>
+				<div class="social__dark-mode">
+					<h3 class="dark__title">Dark Mode</h3>
+					<label class="toggle-switch">
+						<input type="checkbox" id="darkBtn" />
+						<div class="toggle-switch-background">
+							<div class="toggle-switch-handle"></div>
+						</div>
+					</label>
+				</div>
+			</div>
+			<div class="social__container">
+				<div class="container__grid">
+					<div class="social__card facebook light">
+						<div class="card__user light">
+							<img src="./images/icon-facebook.svg" alt="" />
+							<span>@nathanf</span>
+						</div>
+						<div class="card__followers">
+							<h2 class="light">1987</h2>
+							<span>FOLLOWERS</span>
+						</div>
+						<div class="followers__updown green">
+							<img src="./images/icon-up.svg" alt="" />
+							<span>12 Today</span>
+						</div>
+					</div>
+					<div class="social__card twitter light">
+						<div class="card__user">
+							<img src="./images/icon-twitter.svg" alt="" />
+							<span>@nathanf</span>
+						</div>
+						<div class="card__followers">
+							<h2 class="light">1044</h2>
+							<span>FOLLOWERS</span>
+						</div>
+						<div class="followers__updown green">
+							<img src="./images/icon-up.svg" alt="" />
+							<span>99 Today</span>
+						</div>
+					</div>
+					<div class="social__card instagram light">
+						<div class="card__user">
+							<img src="./images/icon-instagram.svg" alt="" />
+							<span>@realnathanf</span>
+						</div>
+						<div class="card__followers">
+							<h2 class="light">11k</h2>
+							<span>FOLLOWERS</span>
+						</div>
+						<div class="followers__updown green">
+							<img src="./images/icon-up.svg" alt="" />
+							<span>1099 Today</span>
+						</div>
+					</div>
+					<div class="social__card youtube light">
+						<div class="card__user">
+							<img src="./images/icon-youtube.svg" alt="" />
+							<span>Nathan F.</span>
+						</div>
+						<div class="card__followers">
+							<h2 class="light">8239</h2>
+							<span>SUBSCRIBERS</span>
+						</div>
+						<div class="followers__updown red">
+							<img src="./images/icon-down.svg" alt="" />
+							<span>144 Today</span>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h2 class="overview__h2">Overview</h2>
+					<div class="container__grid">
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Page views</span>
+								<img src="./images/icon-facebook.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">87</span>
+								<div class="overview__percentage green">
+									<img src="./images/icon-up.svg" alt="" /><span>3%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Likes</span>
+								<img src="./images/icon-facebook.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">52</span>
+								<div class="overview__percentage red">
+									<img src="./images/icon-down.svg" alt="" /><span>2%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Likes</span>
+								<img src="./images/icon-instagram.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">5462</span>
+								<div class="overview__percentage green">
+									<img src="./images/icon-up.svg" alt="" /><span>2257%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Profile views</span>
+								<img src="./images/icon-instagram.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">52k</span>
+								<div class="overview__percentage green">
+									<img src="./images/icon-up.svg" alt="" /><span>1375%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Retweets</span>
+								<img src="./images/icon-twitter.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">117</span>
+								<div class="overview__percentage green">
+									<img src="./images/icon-up.svg" alt="" /><span>303%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Likes</span>
+								<img src="./images/icon-twitter.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">507</span>
+								<div class="overview__percentage green">
+									<img src="./images/icon-up.svg" alt="" /><span>553%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Likes</span>
+								<img src="./images/icon-youtube.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">107</span>
+								<div class="overview__percentage red">
+									<img src="./images/icon-down.svg" alt="" /><span>19%</span>
+								</div>
+							</div>
+						</div>
+						<div class="card__overview light">
+							<div class="card__overview-top">
+								<span class="overview__title">Total views</span>
+								<img src="./images/icon-youtube.svg" alt="" />
+							</div>
+							<div class="card__overview-bot">
+								<span class="light">1407</span>
+								<div class="overview__percentage red">
+									<img src="./images/icon-down.svg" alt="" /><span>12%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://www.github.com/IamNitsu" target="_blank">Nitsu</a>.
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
